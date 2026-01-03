@@ -239,7 +239,7 @@ with c1: lop = st.text_input("📚 Lớp:", "Lớp 10")
 with c2: ten_bai = st.text_input("📌 Tên bài học:", placeholder="Ví dụ: Hàm số bặc hai...")
 with c3: so_tiet = st.text_input("📌 Số tiết bài học:", placeholder="Ví dụ: 2")
 
-noidung_bosung = st.text_area("✍️ Ghi chú thêm (nội dung/kiến thức):", placeholder="Ví dụ: Có bài tập trắc nghiệm cuối tiết phù hợp với nội dung, kiến thức của tiết học,...", height=100)
+noidung_bosung = st.text_area("✍️ Ghi chú thêm (nội dung/kiến thức):", placeholder="Ví dụ: Có bài tập trắc nghiệm cuối tiết phù hợp với nội dung, kiến thức trong tiết học,...", height=100)
 yeu_cau_them = st.text_input("💡 Yêu cầu đặc biệt:", placeholder="Ví dụ: Tích hợp trò chơi khởi động...")
 
 # 3. NÚT XỬ LÝ
@@ -293,7 +293,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 - Tích hợp Học thông qua chơi vào 1 số hoạt động phù hợp.
                 - Riêng các trò chơi trong tiến trình dạy học cần TRÌNH BÀY RÕ LUẬT CHƠI.
                 - Không cần ghi "Mục tiêu HTQC".
-                - Tiết học chỉ có 42 phút, hãy điều chỉnh lượng kiến thức và hoạt động hợp lý. Bài học có thể có nhiều tiết do đó cần chia tiết cho hợp lý
+                - Bài học có thể có nhiều tiết (THEO YÊU CẦU CỦA NGƯỜI DÙNG ở cột 'so_tiet' , do đó cần CHIA TIẾT cho hợp lý. Mỗi tiết học chỉ có 42 phút, hãy điều chỉnh lượng kiến thức và hoạt động hợp lý. 
                 - Không kèm chú thích nguồn trong bài soạn.
                 - Tuyệt đối chỉ bao gồm 4 Hoạt động, không phát sinh thêm.
                 - LUÔN LUÔN TUÂN THỦ THEO NHỮNG YÊU CẦU TRÊN
