@@ -304,9 +304,10 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
 - Mỗi tiết là một giáo án hoàn chỉnh. Nếu nội dung dài thì có thể tách sang tiết sau (không chia vụn ý nghĩa)
 
 🧾 CHỮA BÀI TẬP SGK
+- Chỉ lấy các bài tập thuộc bài học trong Sách giáo khoa
 - Ưu tiên trích dẫn các bài tập phù hợp đưa vào hoạt động trong các tiết trước  
 - Các bài chưa sử dụng phải dồn vào tiết cuối dưới phần "CHỮA BÀI TẬP SGK"  
-- Phải ghi đầy đủ Đề bài + Lời giải chi tiết **tất cả** các bài tập
+- Phải ghi đầy đủ Đề bài + Lời giải chi tiết **tất cả** các bài tập trong bài học
 
                 - LUÔN LUÔN TUÂN THỦ THEO NHỮNG YÊU CẦU TRÊN
 
