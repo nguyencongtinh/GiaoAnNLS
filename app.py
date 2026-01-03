@@ -265,7 +265,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 - Yêu cầu đặc biệt: "{yeu_cau_them}".
 
                 YÊU CẦU LUÔN LUÔN TUÂN THỦ CẤU TRÚC (CÔNG VĂN 5512):
-                I. Mục tiêu: Trong phần này lại chia thành các phần sau: 
+                I. Mục tiêu bài học: Trong phần này lại chia thành các phần sau: 
                 1. Về kiến thức: Nêu cụ thể nội dung kiến thức học sinh cần học trong bài theo yêu cầu cần đạt của nội dung giáo dục/chủ đề tương ứng trong chương trình môn học/hoạt động giáo dục. 
                 2. Về năng lực: Nêu cụ thể yêu cầu học sinh làm được gì (biểu hiện cụ thể của năng lực chung và năng lực đặc thù môn học cần phát triển) trong hoạt động học để chiếm lĩnh và vận dụng kiến thức theo yêu cầu cần đạt của chương trình môn học/hoạt động giáo dục. 
                 3. Về phẩm chất: Nêu cụ thể yêu cầu về hành vi, thái độ (biểu hiện cụ thể của phẩm chất cần phát triển gắn với nội dung bài dạy) của học sinh trong quá trình thực hiện các nhiệm vụ học tập và vận dụng kiến thức vào cuộc sống. 
@@ -297,7 +297,17 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 - Không cần ghi "Mục tiêu HTQC".
                 - Bài học có thể có nhiều tiết, do đó cần CHIA TIẾT cho hợp lý, ĐÚNG YÊU CẦU CỦA NGƯỜI DÙNG nhập vào ở ô {so_tiet}. Mỗi tiết học chỉ có 45 phút, hãy điều chỉnh lượng kiến thức và hoạt động hợp lý. 
                 - Không kèm chú thích nguồn trong bài soạn.
-                - Mỗi đề mục lớn trong SGK là một hoạt động thành phần.                                                                                                              
+                - Mỗi đề mục lớn trong SGK là một hoạt động thành phần.
+                - Mỗi hoạt động hoặc hoạt động thành phần phải có đủ 4 block:
+                    a) Mục tiêu: Nêu mục tiêu giúp học sinh thực hiện nhiệm vụ học tập để chiếm lĩnh kiến thức mới/giải quyết vấn đề/thực hiện nhiệm vụ đặt ra từ Hoạt động.
+                    b) Nội dung:  Nêu rõ nội dung yêu cầu/nhiệm vụ cụ thể của học sinh làm việc với sách giáo khoa, thiết bị dạy học, học liệu cụ thể (đọc/xem/nghe/nói/làm) để chiếm lĩnh/vận dụng kiến thức để giải quyết vấn đề/nhiệm vụ học tập đã đặt ra từ Hoạt động.  
+                    c) Sản phẩm: Trình bày cụ thể về kiến thức mới/kết quả giải quyết vấn đề/thực hiện nhiệm vụ học tập mà học sinh cần viết ra, trình bày được. 
+                    d) Tổ chức thực hiện: Hướng dẫn, hỗ trợ, kiểm tra, đánh giá quá trình và kết quả thực hiện hoạt động của học sinh.
+                - Tất cả các khung Ghi nhớ, Nhận xét, Chú ý phải được **chép nguyên văn** và đặt đúng thứ tự, mục tương ứng trong bài soạn.
+                - Tất cả HĐ, các câu hỏi (?), ví dụ, bài tập, luyện tập, vận dụng ở hoạt động thành phần  nào phải trình bày trong hoạt động thành phần đó, nhưng phải thỏa mãn yêu cầu trong mục {so_tiet} và phải được trình bày đầy đủ Đề bài và Lời giải chi tiết ngay bên dưới.
+                - Ưu tiên trích dẫn các bài tập phù hợp đưa vào hoạt động trong các tiết trước  
+                - Các bài chưa sử dụng phải dồn vào tiết cuối dưới phần "CHỮA BÀI TẬP SGK"  
+                - Phải ghi đầy đủ Đề bài + Lời giải chi tiết **tất cả** các bài tập
                 - Tuyệt đối chỉ bao gồm 4 Hoạt động, không phát sinh thêm.
                 - LUÔN LUÔN TUÂN THỦ THEO NHỮNG YÊU CẦU TRÊN
 
