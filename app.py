@@ -261,7 +261,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 - Các tài liệu hình ảnh/PDF thầy cô tải lên: Phân tích để lấy nội dung kiến thức bài học.
                 - Ghi chú bổ sung: "{noidung_bosung}".
 
-                YÊU CẦU LUÔN LUÔN TUÂN THỦ CẤU TRÚC (CÔNG VĂN 2345):
+                YÊU CẦU LUÔN LUÔN TUÂN THỦ CẤU TRÚC (CÔNG VĂN 5512):
                 I. Yêu cầu cần đạt: Trong phần này lại chia thành các phần sau: 
                 1. Học sinh thực hiện được, 
                 2. Học sinh vận dụng được, 
