@@ -294,7 +294,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 - Tích hợp Học thông qua chơi vào 1 số hoạt động phù hợp.
                 - Riêng các trò chơi trong tiến trình dạy học cần TRÌNH BÀY RÕ LUẬT CHƠI.
                 - Không cần ghi "Mục tiêu HTQC".
-                - Bài học có thể có nhiều tiết, do đó cần CHIA TIẾT cho hợp lý, ĐÚNG YÊU CẦU CỦA NGƯỜI DÙNG nhập vào ở ô {so_tiet}. Mỗi tiết học chỉ có 42 phút, hãy điều chỉnh lượng kiến thức và hoạt động hợp lý. 
+                - Bài học có thể có nhiều tiết, do đó cần CHIA TIẾT cho hợp lý, ĐÚNG YÊU CẦU CỦA NGƯỜI DÙNG nhập vào ở ô {so_tiet}. Mỗi tiết học chỉ có 45 phút, hãy điều chỉnh lượng kiến thức và hoạt động hợp lý. 
                 - Không kèm chú thích nguồn trong bài soạn.
                 - Tuyệt đối chỉ bao gồm 4 Hoạt động, không phát sinh thêm.
                 - LUÔN LUÔN TUÂN THỦ THEO NHỮNG YÊU CẦU TRÊN
