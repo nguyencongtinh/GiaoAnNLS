@@ -293,7 +293,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 - Tích hợp Học thông qua chơi vào 1 số hoạt động phù hợp.
                 - Riêng các trò chơi trong tiến trình dạy học cần TRÌNH BÀY RÕ LUẬT CHƠI.
                 - Không cần ghi "Mục tiêu HTQC".
-                - Tiết học chỉ có 35 phút, hãy điều chỉnh lượng kiến thức và hoạt động hợp lý.
+                - Tiết học chỉ có 42 phút, hãy điều chỉnh lượng kiến thức và hoạt động hợp lý.
                 - Không kèm chú thích nguồn trong bài soạn.
                 - Tuyệt đối chỉ bao gồm 4 Hoạt động, không phát sinh thêm.
                 - LUÔN LUÔN TUÂN THỦ THEO NHỮNG YÊU CẦU TRÊN
@@ -324,7 +324,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 
                 response = model.generate_content(input_data)
                 
-                st.markdown("### 📄 KẾT QUẢ BÀI SOẠN:")
+                st.markdown("### 📄 NỘI DUNG BÀI SOẠN:")
                 st.markdown(f'<div class="lesson-plan-paper">{response.text}</div>', unsafe_allow_html=True)
                 
                 doc = create_doc_stable(response.text, ten_bai, lop)
