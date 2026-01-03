@@ -302,7 +302,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
 
                 Lưu ý chung: Bám sát nội dung trong Sách giáo khoa và sách giáo viên (từ tài liệu đính kèm) để đưa nội dung vào bài soạn cho chính xác. KHÔNG dùng ký tự # ở đầu dòng.
 
-                LƯU Ý QUAN TRỌNG TỪ NGƯỜI DÙNG: "{yeu_cau_them}", "{so_tiet}", "{noidung_bosung}"
+                LƯU Ý QUAN TRỌNG TỪ NGƯỜI DÙNG: {yeu_cau_them}, {so_tiet}, {noidung_bosung}
                 """
 
                 input_data = [prompt_instruction]
