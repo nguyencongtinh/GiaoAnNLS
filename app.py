@@ -262,7 +262,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 - Các tài liệu hình ảnh/PDF thầy cô tải lên: Phân tích để lấy nội dung kiến thức bài học.
                 - Ghi chú bổ sung: "{noidung_bosung}".
                 - Số tiết bài học: "{so_tiet}".
-                - Yêu cầu đặc biệt: "{yeu_cau-them}".
+                - Yêu cầu đặc biệt: "{yeu_cau_them}".
 
                 YÊU CẦU LUÔN LUÔN TUÂN THỦ CẤU TRÚC (CÔNG VĂN 5512):
                 I. Mục tiêu: Trong phần này lại chia thành các phần sau: 
