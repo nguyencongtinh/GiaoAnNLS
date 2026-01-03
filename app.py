@@ -191,7 +191,7 @@ st.markdown("""
 st.markdown("""
 <div class="main-header">
     <h1>📘 TRỢ LÝ SOẠN GIÁO ÁN TỰ ĐỘNG (Năng lực số)</h1>
-    <p>Tác giả: Nguyễn Công Tĩnh - Trường THPT Chuyên Hà Giang - ĐT: 0913.256.001</p>
+    <p>Creat by: Nguyễn Công Tĩnh - Trường THPT Chuyên Hà Giang - ĐT: 0913.256.001</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -218,7 +218,7 @@ else:
     st.info(f"ℹ️ Chưa có file '{FILE_KHUNG_NANG_LUC}'. Thầy có thể upload để dùng tính năng Năng lực số.")
 
 uploaded_files = st.file_uploader(
-    "Tải Ảnh/PDF bài dạy (Kéo thả vào đây):", 
+    "Tải Ảnh/PDF SGK, PPCT, CV hướng dẫn (5512, 7991,2345,...), ...  (Kéo thả vào đây):", 
     type=["jpg", "png", "pdf"], accept_multiple_files=True
 )
 
@@ -234,11 +234,12 @@ if uploaded_files:
 # 2. THÔNG TIN
 st.markdown('<div class="section-header">📝 2. THÔNG TIN BÀI DẠY</div>', unsafe_allow_html=True)
 
-c1, c2 = st.columns(2)
+c1, c2, c3 = st.columns(3)
 with c1: lop = st.text_input("📚 Lớp:", "Lớp 10")
-with c2: ten_bai = st.text_input("📌 Tên bài học:", placeholder="Ví dụ: Học hát bài...")
+with c2: ten_bai = st.text_input("📌 Tên bài học:", placeholder="Ví dụ: Hàm số bặc hai...")
+with c3: so_tiet = st.text_input("📌 Số tiết bài học:", placeholder="Ví dụ: 2")
 
-noidung_bosung = st.text_area("✍️ Ghi chú thêm (nội dung/kiến thức):", height=100)
+noidung_bosung = st.text_area("✍️ Ghi chú thêm (nội dung/kiến thức):", placeholder="Ví dụ: Có bài tập trắc nghiệm cuối tiết phù hợp với nội dung, kiến thức của tiết học,...", height=100)
 yeu_cau_them = st.text_input("💡 Yêu cầu đặc biệt:", placeholder="Ví dụ: Tích hợp trò chơi khởi động...")
 
 # 3. NÚT XỬ LÝ
@@ -262,17 +263,16 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 - Ghi chú bổ sung: "{noidung_bosung}".
 
                 YÊU CẦU LUÔN LUÔN TUÂN THỦ CẤU TRÚC (CÔNG VĂN 5512):
-                I. Yêu cầu cần đạt: Trong phần này lại chia thành các phần sau: 
-                1. Học sinh thực hiện được, 
-                2. Học sinh vận dụng được, 
-                3. Phát triển năng lực (bao gồm năng lực đặc thù, năng lực chung, phát triển năng lực số), 
-                4. Phát triển phẩm chất.
+                I. Mục tiêu: Trong phần này lại chia thành các phần sau: 
+                1. Về kiến thức: Nêu cụ thể nội dung kiến thức học sinh cần học trong bài theo yêu cầu cần đạt của nội dung giáo dục/chủ đề tương ứng trong chương trình môn học/hoạt động giáo dục. 
+                2. Về năng lực: Nêu cụ thể yêu cầu học sinh làm được gì (biểu hiện cụ thể của năng lực chung và năng lực đặc thù môn học cần phát triển) trong hoạt động học để chiếm lĩnh và vận dụng kiến thức theo yêu cầu cần đạt của chương trình môn học/hoạt động giáo dục. 
+                3. Về phẩm chất: Nêu cụ thể yêu cầu về hành vi, thái độ (biểu hiện cụ thể của phẩm chất cần phát triển gắn với nội dung bài dạy) của học sinh trong quá trình thực hiện các nhiệm vụ học tập và vận dụng kiến thức vào cuộc sống. 
                 * Nội dung tích hợp (VD: Học thông qua chơi, Công dân số,...)
                     - Lưu ý: Thêm phát triển năng lực số trong mục phát triển năng lực (Dựa vào file Khung năng lực nếu có).
                     - Nội dung tích hợp Học thông qua chơi trong Yêu cầu cần đạt cần cụ thể chi tiết hơn chút nữa.
                     - Nội dung tích hợp Công dân số cũng cần cụ thể hơn trong yêu cầu cần đạt.
 
-                II. Đồ dùng dạy học
+                II. Thiết bị dạy học và học liệu (Nêu cụ thể các thiết bị dạy học và học liệu được sử dụng trong bài dạy để tổ chức cho học sinh hoạt động nhằm đạt được mục tiêu, yêu cầu của bài dạy (muốn hình thành phẩm chất, năng lực nào thì hoạt động học phải tương ứng và phù hợp)). 
                 1. Giáo viên
                 2. Học sinh
 
@@ -293,7 +293,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 - Tích hợp Học thông qua chơi vào 1 số hoạt động phù hợp.
                 - Riêng các trò chơi trong tiến trình dạy học cần TRÌNH BÀY RÕ LUẬT CHƠI.
                 - Không cần ghi "Mục tiêu HTQC".
-                - Tiết học chỉ có 42 phút, hãy điều chỉnh lượng kiến thức và hoạt động hợp lý.
+                - Tiết học chỉ có 42 phút, hãy điều chỉnh lượng kiến thức và hoạt động hợp lý. Bài học có thể có nhiều tiết do đó cần chia tiết cho hợp lý
                 - Không kèm chú thích nguồn trong bài soạn.
                 - Tuyệt đối chỉ bao gồm 4 Hoạt động, không phát sinh thêm.
                 - LUÔN LUÔN TUÂN THỦ THEO NHỮNG YÊU CẦU TRÊN
