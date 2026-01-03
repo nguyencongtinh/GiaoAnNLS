@@ -262,6 +262,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 - Các tài liệu hình ảnh/PDF thầy cô tải lên: Phân tích để lấy nội dung kiến thức bài học.
                 - Ghi chú bổ sung: "{noidung_bosung}".
                 - Số tiết bài học: "{so_tiet}".
+                - Yêu cầu đặc biệt: "{yeu_cau-them}".
 
                 YÊU CẦU LUÔN LUÔN TUÂN THỦ CẤU TRÚC (CÔNG VĂN 5512):
                 I. Mục tiêu: Trong phần này lại chia thành các phần sau: 
@@ -296,6 +297,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 - Không cần ghi "Mục tiêu HTQC".
                 - Bài học có thể có nhiều tiết, do đó cần CHIA TIẾT cho hợp lý, ĐÚNG YÊU CẦU CỦA NGƯỜI DÙNG nhập vào ở ô {so_tiet}. Mỗi tiết học chỉ có 45 phút, hãy điều chỉnh lượng kiến thức và hoạt động hợp lý. 
                 - Không kèm chú thích nguồn trong bài soạn.
+                - Mỗi đề mục lớn trong SGK là một hoạt động thành phần.                                                                                                              
                 - Tuyệt đối chỉ bao gồm 4 Hoạt động, không phát sinh thêm.
                 - LUÔN LUÔN TUÂN THỦ THEO NHỮNG YÊU CẦU TRÊN
 
