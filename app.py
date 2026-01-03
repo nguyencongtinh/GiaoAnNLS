@@ -239,7 +239,7 @@ with c1: lop = st.text_input("📚 Lớp:", "Lớp 10")
 with c2: ten_bai = st.text_input("📌 Tên bài học:", placeholder="Ví dụ: Hàm số bặc hai...")
 with c3: so_tiet = st.text_input("📌 Số tiết bài học:", placeholder="Ví dụ: 2")
 
-noidung_bosung = st.text_area("✍️ Ghi chú thêm (nội dung/kiến thức):", placeholder="Ví dụ: Tạo bài tập trắc nghiệm ở cuối mỗi tiết phù hợp với nội dung, kiến thức trong tiết học đó,...", height=100)
+noidung_bosung = st.text_area("✍️ Ghi chú thêm (nội dung/kiến thức):", placeholder="Ví dụ: Tạo bài tập trắc nghiệm ở cuối mỗi tiết, phù hợp với nội dung, kiến thức trong tiết học đó,...", height=100)
 yeu_cau_them = st.text_input("💡 Yêu cầu đặc biệt:", placeholder="Ví dụ: Tích hợp trò chơi khởi động...")
 
 # 3. NÚT XỬ LÝ
@@ -293,7 +293,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 - Tích hợp Học thông qua chơi vào 1 số hoạt động phù hợp.
                 - Riêng các trò chơi trong tiến trình dạy học cần TRÌNH BÀY RÕ LUẬT CHƠI.
                 - Không cần ghi "Mục tiêu HTQC".
-                - Mỗi Bài học có thể có nhiều tiết, do đó cần CHIA TIẾT cho hợp lý THEO YÊU CẦU CỦA NGƯỜI DÙNG nhập vào ở ô "Số tiết bài học:". Mỗi tiết học chỉ có 42 phút, hãy điều chỉnh lượng kiến thức và hoạt động hợp lý. 
+                - Mỗi Bài học có thể có nhiều tiết, do đó cần CHIA TIẾT cho hợp lý, ĐÚNG YÊU CẦU CỦA NGƯỜI DÙNG nhập vào ở ô {so_tiet}. Mỗi tiết học chỉ có 42 phút, hãy điều chỉnh lượng kiến thức và hoạt động hợp lý. 
                 - Không kèm chú thích nguồn trong bài soạn.
                 - Tuyệt đối chỉ bao gồm 4 Hoạt động, không phát sinh thêm.
                 - LUÔN LUÔN TUÂN THỦ THEO NHỮNG YÊU CẦU TRÊN
@@ -302,7 +302,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
 
                 Lưu ý chung: Bám sát nội dung trong Sách giáo khoa và sách giáo viên (từ tài liệu đính kèm) để đưa nội dung vào bài soạn cho chính xác. KHÔNG dùng ký tự # ở đầu dòng.
 
-                LƯU Ý QUAN TRỌNG TỪ NGƯỜI DÙNG: {yeu_cau_them}
+                LƯU Ý QUAN TRỌNG TỪ NGƯỜI DÙNG: {yeu_cau_them}, {so_tiet}, {noidung_bosung}
                 """
 
                 input_data = [prompt_instruction]
