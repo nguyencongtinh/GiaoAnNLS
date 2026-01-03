@@ -279,36 +279,35 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 2. Học sinh
 
                 III. Tiến trình dạy học
-                [QUAN TRỌNG] PHẦN NÀY PHẢI TRÌNH BÀY DƯỚI DẠNG BẢNG (MARKDOWN TABLE) 2 CỘT. 
-                TÊN CÁC HOẠT ĐỘNG PHẢI NẰM Ở CỘT 1 (HOẠT ĐỘNG GIÁO VIÊN).
+                1. **Hoạt động khởi động**  
+                    - Bám sát nội dung đầu tiên trong SGK/CĐ  
+                    - Gợi mở tư duy, dẫn dắt vào bài học, kết nối kiến thức cũ
+                2. **Hoạt động hình thành kiến thức**  
+                    Gồm nhiều hoạt động thành phần, mỗi hoạt động tương ứng với 1 mục trong SGK/Chuyên đề.**Mỗi mục trong SGK (1., 2., ...) tương ứng với 1 Hoạt động thành phần trong giáo án (2.1, 2.2, ...).**  
+                    - **Mỗi hoạt động hoặc hoạt động thành phần phải có đủ 4 block:**
+                        a) Mục tiêu: Nêu mục tiêu giúp học sinh thực hiện nhiệm vụ học tập để chiếm lĩnh kiến thức mới/giải quyết vấn đề/thực hiện nhiệm vụ đặt ra từ Hoạt động
+                        b) Nội dung: Nêu rõ nội dung yêu cầu/nhiệm vụ cụ thể của học sinh làm việc với sách giáo khoa, thiết bị dạy học, học liệu cụ thể (đọc/xem/nghe/nói/làm) để chiếm lĩnh/vận dụng kiến thức để giải quyết vấn đề/nhiệm vụ học tập đã đặt ra từ Hoạt động  
+                        c) Sản phẩm: Trình bày cụ thể về kiến thức mới/kết quả giải quyết vấn đề/thực hiện nhiệm vụ học tập mà học sinh cần viết ra, trình bày được. 
+                        d) **Tổ chức thực hiện**: Hướng dẫn, hỗ trợ, kiểm tra, đánh giá quá trình và kết quả thực hiện hoạt động của học sinh
+    Riêng mục d) **Tổ chức thực hiện** thì trình bày tóm tắt trong bảng gồm 5 cột: Nội dung| Phương thức tổ chức | Dự kiến sản phẩm| Mục tiêu cần đạt | Thời gian . Trong đó:
+	- Cột Nội dung: Ghi tóm tắt công việc cần thực hiện (Ví dụ, bài tập, …)
+	- Cột Phương thức tổ chức: Ghi tóm tắt công việc của Giáo viên, Học sinh
+	- Cột Dự kiến sản phẩm: Ghi tóm tắt kết quả của hoạt động (Đáp số, ghi nhớ, …)
+	- Cột Mục tiêu cần đạt: Ghi tóm tắt yêu cầu cần đạt ( Kiến thức, kỹ năng, …)
+	- Cột Thời gian: Ghi thời gian dự kiến cho hoạt động
+- **Tất cả HĐ, các câu hỏi (?), ví dụ, bài tập, luyện tập, vận dụng ở hoạt động thành phần  nào **phải trình bày** trong hoạt động thành phần đó, nhưng phải thỏa mãn yêu cầu trong mục **📘 PHÂN CHIA THÀNH NHIỀU TIẾT** và phải được trình bày đầy đủ Đề bài và Lời giải chi tiết ngay bên dưới bảng.
+- Tất cả các khung **Ghi nhớ**, **Nhận xét**, **Chú ý** phải được **chép nguyên văn** và đặt đúng thứ tự, mục tương ứng trong giáo án.
+3. **Hoạt động luyện tập**  
+4. **Hoạt động vận dụng**  
+ 📘 PHÂN CHIA THÀNH NHIỀU TIẾT
+- Nếu người dùng yêu cầu nhiều tiết, phải chia theo dung lượng và mức độ kiến thức SGK  
+- Mỗi tiết là một giáo án hoàn chỉnh. Nếu nội dung dài thì có thể tách sang tiết sau (không chia vụn ý nghĩa)
 
-                | HOẠT ĐỘNG CỦA GIÁO VIÊN | HOẠT ĐỘNG CỦA HỌC SINH |
-                |---|---|
-                | **1. Hoạt động 1 - Khởi động:**<br>- GV tổ chức... | - HS tham gia... |
-                | **2. Hoạt động 2 - Hình thành kiến thức mới:**<br>- GV hướng dẫn... | - HS quan sát... |
-                | **3. Hoạt động 3 - Thực hành - luyện tập:**<br>- GV yêu cầu... | - HS thực hiện... |
-                | **4. Hoạt động 4 - Vận dụng:**<br>- GV gợi mở... | - HS chia sẻ... |
+🧾 CHỮA BÀI TẬP SGK
+- Ưu tiên trích dẫn các bài tập phù hợp đưa vào hoạt động trong các tiết trước  
+- Các bài chưa sử dụng phải dồn vào tiết cuối dưới phần "CHỮA BÀI TẬP SGK"  
+- Phải ghi đầy đủ Đề bài + Lời giải chi tiết **tất cả** các bài tập
 
-                YÊU CẦU CHI TIẾT CHO TIẾN TRÌNH DẠY HỌC:
-                - Cần chi tiết cụ thể (đặc biệt là Hoạt động của học sinh).
-                - Các ý trong tiến trình dạy học được bắt đầu bằng dấu gạch đầu dòng (-).
-                - Tích hợp Học thông qua chơi vào 1 số hoạt động phù hợp.
-                - Riêng các trò chơi trong tiến trình dạy học cần TRÌNH BÀY RÕ LUẬT CHƠI.
-                - Không cần ghi "Mục tiêu HTQC".
-                - Bài học có thể có nhiều tiết, do đó cần CHIA TIẾT cho hợp lý, ĐÚNG YÊU CẦU CỦA NGƯỜI DÙNG nhập vào ở ô {so_tiet}. Mỗi tiết học chỉ có 45 phút, hãy điều chỉnh lượng kiến thức và hoạt động hợp lý. 
-                - Không kèm chú thích nguồn trong bài soạn.
-                - Mỗi đề mục lớn trong SGK là một hoạt động thành phần.
-                - Mỗi hoạt động hoặc hoạt động thành phần phải có đủ 4 block:
-                    a) Mục tiêu: Nêu mục tiêu giúp học sinh thực hiện nhiệm vụ học tập để chiếm lĩnh kiến thức mới/giải quyết vấn đề/thực hiện nhiệm vụ đặt ra từ Hoạt động.
-                    b) Nội dung:  Nêu rõ nội dung yêu cầu/nhiệm vụ cụ thể của học sinh làm việc với sách giáo khoa, thiết bị dạy học, học liệu cụ thể (đọc/xem/nghe/nói/làm) để chiếm lĩnh/vận dụng kiến thức để giải quyết vấn đề/nhiệm vụ học tập đã đặt ra từ Hoạt động.  
-                    c) Sản phẩm: Trình bày cụ thể về kiến thức mới/kết quả giải quyết vấn đề/thực hiện nhiệm vụ học tập mà học sinh cần viết ra, trình bày được. 
-                    d) Tổ chức thực hiện: Hướng dẫn, hỗ trợ, kiểm tra, đánh giá quá trình và kết quả thực hiện hoạt động của học sinh.
-                - Tất cả các khung Ghi nhớ, Nhận xét, Chú ý phải được **chép nguyên văn** và đặt đúng thứ tự, mục tương ứng trong bài soạn.
-                - Tất cả HĐ, các câu hỏi (?), ví dụ, bài tập, luyện tập, vận dụng ở hoạt động thành phần  nào phải trình bày trong hoạt động thành phần đó, nhưng phải thỏa mãn yêu cầu trong mục {so_tiet} và phải được trình bày đầy đủ Đề bài và Lời giải chi tiết ngay bên dưới.
-                - Ưu tiên trích dẫn các bài tập phù hợp đưa vào hoạt động trong các tiết trước  
-                - Các bài chưa sử dụng phải dồn vào tiết cuối dưới phần "CHỮA BÀI TẬP SGK"  
-                - Phải ghi đầy đủ Đề bài + Lời giải chi tiết **tất cả** các bài tập
-                - Tuyệt đối chỉ bao gồm 4 Hoạt động, không phát sinh thêm.
                 - LUÔN LUÔN TUÂN THỦ THEO NHỮNG YÊU CẦU TRÊN
 
                 IV. Điều chỉnh sau tiết dạy
