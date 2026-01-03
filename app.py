@@ -261,6 +261,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
                 - (Nếu có) File PDF Khung năng lực số đính kèm: Hãy dùng để đối chiếu nội dung bài học và đưa vào mục Năng lực số.
                 - Các tài liệu hình ảnh/PDF thầy cô tải lên: Phân tích để lấy nội dung kiến thức bài học.
                 - Ghi chú bổ sung: "{noidung_bosung}".
+                - Số tiết bài học: "{so_tiet}".
 
                 YÊU CẦU LUÔN LUÔN TUÂN THỦ CẤU TRÚC (CÔNG VĂN 5512):
                 I. Mục tiêu: Trong phần này lại chia thành các phần sau: 
@@ -302,7 +303,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
 
                 Lưu ý chung: Bám sát nội dung trong Sách giáo khoa và sách giáo viên (từ tài liệu đính kèm) để đưa nội dung vào bài soạn cho chính xác. KHÔNG dùng ký tự # ở đầu dòng.
 
-                LƯU Ý QUAN TRỌNG TỪ NGƯỜI DÙNG: {yeu_cau_them}, {so_tiet}, {noidung_bosung}
+                LƯU Ý QUAN TRỌNG TỪ NGƯỜI DÙNG: {yeu_cau_them}, {so_tiet}, {noidung_bosung}.
                 """
 
                 input_data = [prompt_instruction]
